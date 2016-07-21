@@ -10,15 +10,20 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  margin: 1em;
-  justify-content: space-around; }
+  margin: 4em;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 1; }
 
-.card {
+.category {
   padding: 1em;
-  margin: 1em; }
+  margin: 3em;
+  border: 1px solid black;
+  text-align: center; }
 
 .about {
-  text-align: center; }
+  text-align: center;
+  padding: 3em; }
 
 .bio {
   height: 8em;
@@ -29,6 +34,22 @@ body {
 .about a {
   color: #ed497a;
   font-weight: bold; }
+
+.recent-work a {
+  color: #ed497a;
+  font-weight: bold; }
+
+.gallery-img {
+  height: 25em;
+  width: 100%; }
+
+.recent-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 3em;
+  align-content: center;
+  padding: 1em; }
 
 html, body {
   padding: 0;
@@ -46,7 +67,8 @@ img {
   padding: 0; }
 
 .header-image {
-  position: relative; }
+  position: relative;
+  margin: 0; }
 
 h1.tagline {
   position: absolute;
@@ -68,15 +90,20 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-  margin: 1em;
-  justify-content: space-around; }
+  margin: 4em;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-shrink: 1; }
 
-.card {
+.category {
   padding: 1em;
-  margin: 1em; }
+  margin: 3em;
+  border: 1px solid black;
+  text-align: center; }
 
 .about {
-  text-align: center; }
+  text-align: center;
+  padding: 3em; }
 
 .bio {
   height: 8em;
@@ -87,6 +114,22 @@ body {
 .about a {
   color: #ed497a;
   font-weight: bold; }
+
+.recent-work a {
+  color: #ed497a;
+  font-weight: bold; }
+
+.gallery-img {
+  height: 25em;
+  width: 100%; }
+
+.recent-work {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-top: 3em;
+  align-content: center;
+  padding: 1em; }
 
 html, body {
   padding: 0;
@@ -104,7 +147,8 @@ img {
   padding: 0; }
 
 .header-image {
-  position: relative; }
+  position: relative;
+  margin: 0; }
 
 h1.tagline {
   position: absolute;
