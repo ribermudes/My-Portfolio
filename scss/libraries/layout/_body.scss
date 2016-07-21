@@ -1,0 +1,42 @@
+body {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.badges {
+  width: 4em;
+  height: 4em;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 1em;
+  justify-content: space-around;
+
+}
+
+.card {
+  padding: 1em;
+  margin: 1em;
+
+}
+
+.about {
+  text-align: center;
+
+}
+
+.bio {
+  height: 8em;
+  width: 8em;
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.about a {
+  color: #ed497a;
+  font-weight: bold;
+}
