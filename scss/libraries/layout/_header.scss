@@ -2,12 +2,6 @@ html,body {
   padding:0; margin:0;
 }
 
-.nav-wrapper {
-  background-color: black !important;
-  margin: 0;
-  padding-left: 1em;
-}
-
 img {
   width: 100%;
   height: auto;
@@ -24,7 +18,63 @@ h1.tagline {
   position: absolute;
   top: 50%;
   left: 50%;
-  color: white;
   transform: translateY(-50%);
   transform: translateX(-50%);
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: bold;
+  font-size: 4em;
+  color: white;
+}
+
+.go {
+  text-align: center;
+}
+
+nav a {
+    position: relative;
+    display: inline-block;
+    margin: 15px 25px;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    font-size: 1.35em;
+    font-weight: bold;
+    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+}
+
+.go a:before,
+.go a:after {
+    display: inline-block;
+    opacity: 0;
+    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s;
+}
+
+.go a:before {
+    margin-right: 10px;
+    content: '{';
+    -webkit-transform: translate(20px);
+    -moz-transform: translate(20px);
+    transform: translate(20px);
+}
+
+.go a:after {
+    margin-left: 10px;
+    content: '}';
+    -webkit-transform: translate(-20px);
+    -moz-transform: translate(-20px);
+    transform: translate(-20px);
+}
+
+.go a:hover:before,
+.go a:hover:after,
+.go a:focus:before,
+.go a:focus:after {
+    opacity: 1;
+    -webkit-transform: translate(0px);
+    -moz-transform: translate(0px);
+    transform: translate(0px);
 }
