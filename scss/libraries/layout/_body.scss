@@ -1,18 +1,18 @@
 body {
-  font-family: 'Cormorant Garamond', serif;
-
+  font-family: 'News Cycle', sans-serif;
+  background-color: whitesmoke;
 }
 
 .badges {
   width: 4em;
   height: 4em;
-  border: 1px solid #ed497a;
   border-radius: 50%;
 
 }
 
 h2  {
   text-align: center;
+  font-family: SignPainter-HouseScript;
 }
 
 .container {
@@ -37,19 +37,19 @@ h2  {
 }
 
 .bio {
-  height: 8em;
-  width: 8em;
-  border: 1px solid #ed497a;
+  height: 6em;
+  width: 6em;
+  border: 1px solid black;
   border-radius: 50%;
 }
 
 .about a {
-  color: #ed497a;
+  color: #7a1300;
   font-weight: bold;
 }
 
 .recent-work a {
-  color: #ed497a;
+  color: #7a1300;
   font-weight: bold;
 }
 

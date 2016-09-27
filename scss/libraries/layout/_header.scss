@@ -10,24 +10,45 @@ img {
 }
 
 .header-image {
+  background-image: url('img/DWLWL9USBG.png');
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
   position: relative;
   margin: 0;
 }
 
 h1.tagline {
   position: absolute;
-  top: 50%;
-  left: 50%;
   transform: translateY(-50%);
   transform: translateX(-50%);
-  font-family: 'Cormorant Garamond', serif;
-  font-weight: bold;
-  font-size: 4em;
-  color: white;
+  padding: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+  /* Fueled by coffee and: */
+font-family: SignPainter-HouseScript;
+font-size: 24px;
+color: #FFFFFF;
+
+
+/* Front End Deveoper &: */
+font-family: SignPainter-HouseScript;
+font-size: 48px;
+color: #FFFFFF;
+text-shadow: 0px 2px 4px rgba(0,0,0,0.50);
+}
+
+.logo {
+  height: 8em;
+  width: 8em;
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
 .go {
   text-align: center;
+  font-family: SignPainter-HouseScript;
 }
 
 nav a {
@@ -55,7 +76,7 @@ nav a {
 
 .go a:before {
     margin-right: 10px;
-    content: '{';
+    content: '\2702';
     -webkit-transform: translate(20px);
     -moz-transform: translate(20px);
     transform: translate(20px);
@@ -63,7 +84,7 @@ nav a {
 
 .go a:after {
     margin-left: 10px;
-    content: '}';
+    content: '\2711';
     -webkit-transform: translate(-20px);
     -moz-transform: translate(-20px);
     transform: translate(-20px);
