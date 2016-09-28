@@ -1,109 +1,66 @@
 body {
-  font-family: 'News Cycle', sans-serif;
-  background-color: whitesmoke; }
+  font-family: 'News Cycle', sans-serif; }
 
-.badges {
-  width: 4em;
-  height: 4em;
-  border-radius: 50%; }
+.project {
+  height: 400px;
+  width: 400px;
+  padding: 1em;
+  -webkit-box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37); }
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  margin: 2em; }
+
+.info {
+  display: flex; }
 
 h2 {
-  text-align: center;
+  margin: 1em;
   font-family: SignPainter-HouseScript; }
 
-.container {
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid 1px black;
+  float: right;
+  margin: 2em; }
+
+.about p {
+  margin: 2em; }
+
+.process {
   display: flex;
-  flex-direction: row;
-  margin: 4em;
-  justify-content: center;
-  flex-wrap: nowrap;
-  flex-shrink: 1; }
-
-.category {
-  padding: 1em;
-  margin: 3em;
-  text-align: center; }
-
-.about {
-  text-align: center;
-  padding: 3em; }
-
-.bio {
-  height: 6em;
-  width: 6em;
-  border: 1px solid black;
-  border-radius: 50%; }
-
-.about a {
-  color: #7a1300;
-  font-weight: bold; }
-
-.recent-work a {
-  color: #7a1300;
-  font-weight: bold; }
-
-.gallery-img {
-  height: 25em;
-  width: 100%; }
-
-.recent-work {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-top: 3em;
-  margin-right: 1em;
-  align-content: center;
-  padding: 1em; }
-
-.contact-form {
-  text-align: center;
-  margin-top: 3em; }
+  justify-content: space-between;
+  margin: 2em; }
 
 html, body {
   padding: 0;
   margin: 0; }
 
-img {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0; }
-
-.header-image {
-  background-image: url("img/DWLWL9USBG.png");
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
-  position: relative;
-  margin: 0; }
-
-h2.tagline {
-  position: absolute;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-  padding: 3rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: SignPainter-HouseScript;
-  font-size: 36px;
-  color: #FFFFFF;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
-
 .name {
+  display: flex;
+  justify-content: center;
   font-family: SignPainter-HouseScript;
   font-size: 48px;
-  color: #FFFFFF;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 40%;
-  left: 2em; }
+  color: black;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+
+.lips {
+  display: flex;
+  justify-content: center; }
+
+.logo {
+  width: 5em; }
 
 .go {
   text-align: center;
   font-family: SignPainter-HouseScript; }
 
 nav a {
-  position: relative;
   display: inline-block;
   margin: 15px 25px;
   outline: none;
@@ -147,111 +104,68 @@ nav a {
   transform: translate(0px); }
 
 body {
-  font-family: 'News Cycle', sans-serif;
-  background-color: whitesmoke; }
+  font-family: 'News Cycle', sans-serif; }
 
-.badges {
-  width: 4em;
-  height: 4em;
-  border-radius: 50%; }
+.project {
+  height: 400px;
+  width: 400px;
+  padding: 1em;
+  -webkit-box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37);
+  box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37); }
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  margin: 2em; }
+
+.info {
+  display: flex; }
 
 h2 {
-  text-align: center;
+  margin: 1em;
   font-family: SignPainter-HouseScript; }
 
-.container {
+.profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border: solid 1px black;
+  float: right;
+  margin: 2em; }
+
+.about p {
+  margin: 2em; }
+
+.process {
   display: flex;
-  flex-direction: row;
-  margin: 4em;
-  justify-content: center;
-  flex-wrap: nowrap;
-  flex-shrink: 1; }
-
-.category {
-  padding: 1em;
-  margin: 3em;
-  text-align: center; }
-
-.about {
-  text-align: center;
-  padding: 3em; }
-
-.bio {
-  height: 6em;
-  width: 6em;
-  border: 1px solid black;
-  border-radius: 50%; }
-
-.about a {
-  color: #7a1300;
-  font-weight: bold; }
-
-.recent-work a {
-  color: #7a1300;
-  font-weight: bold; }
-
-.gallery-img {
-  height: 25em;
-  width: 100%; }
-
-.recent-work {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-top: 3em;
-  margin-right: 1em;
-  align-content: center;
-  padding: 1em; }
-
-.contact-form {
-  text-align: center;
-  margin-top: 3em; }
+  justify-content: space-between;
+  margin: 2em; }
 
 html, body {
   padding: 0;
   margin: 0; }
 
-img {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 0; }
-
-.header-image {
-  background-image: url("img/DWLWL9USBG.png");
-  background-position: center;
-  background-size: cover;
-  height: 50vh;
-  position: relative;
-  margin: 0; }
-
-h2.tagline {
-  position: absolute;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-  padding: 3rem;
-  top: 50%;
-  transform: translateY(-50%);
-  font-family: SignPainter-HouseScript;
-  font-size: 36px;
-  color: #FFFFFF;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
-
 .name {
+  display: flex;
+  justify-content: center;
   font-family: SignPainter-HouseScript;
   font-size: 48px;
-  color: #FFFFFF;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 40%;
-  left: 2em; }
+  color: black;
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); }
+
+.lips {
+  display: flex;
+  justify-content: center; }
+
+.logo {
+  width: 5em; }
 
 .go {
   text-align: center;
   font-family: SignPainter-HouseScript; }
 
 nav a {
-  position: relative;
   display: inline-block;
   margin: 15px 25px;
   outline: none;

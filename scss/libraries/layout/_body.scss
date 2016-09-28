@@ -1,74 +1,47 @@
 body {
   font-family: 'News Cycle', sans-serif;
-  background-color: whitesmoke;
 }
 
-.badges {
-  width: 4em;
-  height: 4em;
-  border-radius: 50%;
-
+.project {
+  height: 400px;
+  width: 400px;
+  padding: 1em;
+  -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.37);
+  -moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.37);
+  box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.37);
 }
 
-h2  {
-  text-align: center;
+.gallery {
+  display: flex;
+  flex-direction: row;
+  margin: 2em;
+}
+
+.info {
+  // border-top: 1px solid black;
+  display: flex;
+}
+
+h2 {
+  margin: 1em;
   font-family: SignPainter-HouseScript;
 }
 
-.container {
-  display: flex;
-  flex-direction: row;
-  margin:4em;
-  justify-content: center;
-  flex-wrap: nowrap;
-  flex-shrink: 1;
-}
-
-.category {
-  padding: 1em;
-  margin: 3em;
-  // border: 1px solid black;
-  text-align: center;
-}
-
-.about {
-  text-align: center;
-  padding: 3em;
-}
-
-.bio {
-  height: 6em;
-  width: 6em;
-  border: 1px solid black;
+.profile {
+  height: 200px;
+  width: 200px;
   border-radius: 50%;
+  border: solid 1px black;
+  float: right;
+  margin: 2em;
 }
 
-.about a {
-  color: #7a1300;
-  font-weight: bold;
+.about p {
+  margin: 2em;
 }
 
-.recent-work a {
-  color: #7a1300;
-  font-weight: bold;
-}
-
-.gallery-img {
-  height: 25em;
-  width: 100%;
-}
-
-.recent-work {
+.process {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-top: 3em;
-  margin-right: 1em;
-  align-content: center;
-  padding: 1em;
-}
-
-.contact-form {
-  text-align: center;
-  margin-top: 3em;
+  justify-content: space-between;
+  margin: 2em;
 }
