@@ -1,9 +1,18 @@
 .social-media img {
   height: 40px;
   width: 40px;
+  padding: 5px;
 }
+
 
 .contact {
   display: flex;
-  
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.contact-icons  {
+  display: flex;
+  justify-content: center;
+
 }

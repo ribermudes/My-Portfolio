@@ -21,55 +21,57 @@ html,body {
   width: 7em;
 }
 
-
-.go {
+.title {
   text-align: center;
-  font-family: SignPainter-HouseScript;
 }
+// .go {
+//   text-align: center;
+//   font-family: SignPainter-HouseScript;
+// }
 
-nav a {
-    display: inline-block;
-    margin: 15px 25px;
-    outline: none;
-    text-decoration: none;
-    letter-spacing: 1px;
-    color: #000;
-    font-size: 1.35em;
-    font-weight: bold;
-    text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
-}
+// nav a {
+//     display: inline-block;
+//     margin: 15px 25px;
+//     outline: none;
+//     text-decoration: none;
+//     letter-spacing: 1px;
+//     color: #000;
+//     font-size: 1.35em;
+//     font-weight: bold;
+//     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
+// }
 
-.go a:before,
-.go a:after {
-    display: inline-block;
-    opacity: 0;
-    -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
-    -moz-transition: -moz-transform 0.3s, opacity 0.2s;
-    transition: transform 0.3s, opacity 0.2s;
-}
-
-.go a:before {
-    margin-right: 10px;
-    content: '\2702';
-    -webkit-transform: translate(20px);
-    -moz-transform: translate(20px);
-    transform: translate(20px);
-}
-
-.go a:after {
-    margin-left: 10px;
-    content: '\2711';
-    -webkit-transform: translate(-20px);
-    -moz-transform: translate(-20px);
-    transform: translate(-20px);
-}
-
-.go a:hover:before,
-.go a:hover:after,
-.go a:focus:before,
-.go a:focus:after {
-    opacity: 1;
-    -webkit-transform: translate(0px);
-    -moz-transform: translate(0px);
-    transform: translate(0px);
-}
+// .go a:before,
+// .go a:after {
+//     display: inline-block;
+//     opacity: 0;
+//     -webkit-transition: -webkit-transform 0.3s, opacity 0.2s;
+//     -moz-transition: -moz-transform 0.3s, opacity 0.2s;
+//     transition: transform 0.3s, opacity 0.2s;
+// }
+//
+// .go a:before {
+//     margin-right: 10px;
+//     content: '\2702';
+//     -webkit-transform: translate(20px);
+//     -moz-transform: translate(20px);
+//     transform: translate(20px);
+// }
+//
+// .go a:after {
+//     margin-left: 10px;
+//     content: '\2711';
+//     -webkit-transform: translate(-20px);
+//     -moz-transform: translate(-20px);
+//     transform: translate(-20px);
+// }
+//
+// .go a:hover:before,
+// .go a:hover:after,
+// .go a:focus:before,
+// .go a:focus:after {
+//     opacity: 1;
+//     -webkit-transform: translate(0px);
+//     -moz-transform: translate(0px);
+//     transform: translate(0px);
+// }
