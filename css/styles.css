@@ -26,7 +26,8 @@ a .project:hover {
 .gallery {
   display: flex;
   justify-content: center;
-  margin: 4em; }
+  margin: 4em;
+  position: relative; }
 
 .info {
   display: flex; }
@@ -148,7 +149,8 @@ a .project:hover {
 .gallery {
   display: flex;
   justify-content: center;
-  margin: 4em; }
+  margin: 4em;
+  position: relative; }
 
 .info {
   display: flex; }
