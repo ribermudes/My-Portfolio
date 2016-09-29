@@ -9,6 +9,14 @@ body {
   -moz-box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37);
   box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37); }
 
+.project a {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+.project:hover a {
+  opacity: .5; }
+
 .gallery {
   display: flex;
   flex-direction: row;
@@ -30,7 +38,7 @@ h2 {
 
 .about p {
   width: 800px;
-  margin: 3em; }
+  margin: 2em; }
 
 .about {
   display: flex;
@@ -38,17 +46,21 @@ h2 {
 
 .process {
   display: flex;
-  margin: 2em; }
+  justify-content: center; }
 
 .steps {
-  margin: 1em; }
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; }
 
 .icons {
   height: 100px;
   width: 100px;
   transform: scale(1);
   transition: transform .2s ease-in-out;
-  margin: 2em; }
+  justify-content: center; }
 
 .icons:hover {
   transform: scale(2); }
@@ -58,11 +70,11 @@ h2 {
   justify-content: center; }
 
 .steps h2 {
-  padding-top: 2em; }
+  padding-top: 2em;
+  text-align: center; }
 
-.social-media img {
-  height: 20px;
-  width: 20px; }
+.steps p {
+  text-align: center; }
 
 html, body {
   padding: 0;
@@ -128,6 +140,13 @@ nav a {
   -webkit-transform: translate(0px);
   -moz-transform: translate(0px);
   transform: translate(0px); }
+
+.social-media img {
+  height: 40px;
+  width: 40px; }
+
+.contact {
+  display: flex; }
 
 body {
   font-family: 'News Cycle', sans-serif; }
@@ -140,6 +159,14 @@ body {
   -moz-box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37);
   box-shadow: 6px 5px 5px 0px rgba(0, 0, 0, 0.37); }
 
+.project a {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out; }
+
+.project:hover a {
+  opacity: .5; }
+
 .gallery {
   display: flex;
   flex-direction: row;
@@ -161,7 +188,7 @@ h2 {
 
 .about p {
   width: 800px;
-  margin: 3em; }
+  margin: 2em; }
 
 .about {
   display: flex;
@@ -169,17 +196,21 @@ h2 {
 
 .process {
   display: flex;
-  margin: 2em; }
+  justify-content: center; }
 
 .steps {
-  margin: 1em; }
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px; }
 
 .icons {
   height: 100px;
   width: 100px;
   transform: scale(1);
   transition: transform .2s ease-in-out;
-  margin: 2em; }
+  justify-content: center; }
 
 .icons:hover {
   transform: scale(2); }
@@ -189,11 +220,11 @@ h2 {
   justify-content: center; }
 
 .steps h2 {
-  padding-top: 2em; }
+  padding-top: 2em;
+  text-align: center; }
 
-.social-media img {
-  height: 20px;
-  width: 20px; }
+.steps p {
+  text-align: center; }
 
 html, body {
   padding: 0;
@@ -259,6 +290,13 @@ nav a {
   -webkit-transform: translate(0px);
   -moz-transform: translate(0px);
   transform: translate(0px); }
+
+.social-media img {
+  height: 40px;
+  width: 40px; }
+
+.contact {
+  display: flex; }
 
 *,
 *::before,
