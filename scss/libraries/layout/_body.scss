@@ -11,38 +11,86 @@ body {
   background-image: url("../img/DWLWL9USBG.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
-  height: 50vh;
+  background-position: center;
+  height: 100vh;
   position: relative;
 }
 
-.project {
-  height: 300px;
-  width: 300px;
-  // padding: 1em;
-  -webkit-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.37);
-  -moz-box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.37);
-  box-shadow: 6px 5px 5px 0px rgba(0,0,0,0.37);
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
- .project a {
-	opacity: 1;
+.item1, .item2, .item3 {
+	opacity: 0.5;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
 
-a .project:hover {
-	opacity: .5;
+.item1:hover {
+ opacity: 1;
+ p {
+   visibility: hidden;
+ }
+}
 
+.item2:hover {
+ opacity: 1;
+  p {
+    visibility: hidden;
+  }
+}
+
+ .item3:hover {
+	opacity: 1;
+  p {
+    visibility: hidden;
+  }
 }
 
 .gallery {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
 }
 
+.gallery-top{
+  display: flex;
+}
+
+.gallery-image {
+  height: 300px;
+  background-size: cover;
+}
+
+.item1 {
+  background-image: url("../img/main-page.png");
+  position: relative;
+}
+
+.item2 {
+  background-image: url("../img/candlelight.jpg");
+  position: relative;
+}
+
+.item3 {
+  background-image: url("../img/speakeasy.jpg");
+  position: relative;
+}
+
+.large {
+  // width: 50vw;
+  flex-grow: 2;
+}
+
+.small {
+  // width: 25vw;
+  flex-grow: 1
+}
+
+.gallery p {
+  color: white;
+  position: absolute;
+  top: 75%;
+  left: 5%;
+  font-weight: bold;
+  color: #940C00;
+  font-size: 1.5em;
+}
 
 .info {
   display: flex;
@@ -70,7 +118,9 @@ h2 {
 .about {
   display: flex;
   justify-content: space-around;
-
+  background-color: #940C00;
+  font-size: 1.5em;
+  // font-family: SignPainter-HouseScript;
 }
 
 .process {
