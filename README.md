@@ -10,8 +10,8 @@ _This is my first professional porfolio site displaying projects I have worked o
 
 ## Setup/Installation Requirements
 
-* Clone repository 
-* Open in browser
+* Copy https://ribermudes.github.io/My-Portfolio/
+* Paste in browser.
 
 
 Copyright (c) 2016 **_Rachael Bermudes_**
