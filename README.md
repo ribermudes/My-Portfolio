@@ -10,7 +10,7 @@ _This is my first professional porfolio site displaying projects I have worked o
 
 ## Setup/Installation Requirements
 
-* Copy https://ribermudes.github.io/My-Portfolio/
+* Copy https://rawgit.com/ribermudes/My-Portfolio/master/index.html
 * Paste in browser.
 
 
