@@ -60,21 +60,6 @@ body {
   background-image: url("../img/mentr.png");
   position: relative;
 }
-//projects to be added
-// .item4 {
-//   background-image: url("../img/main-page.png");
-//   position: relative;
-// }
-//
-// .item5 {
-//   background-image: url("../img/candlelight.jpg");
-//   position: relative;
-// }
-//
-// .item6 {
-//   background-image: url("../img/speakeasy.jpg");
-//   position: relative;
-// }
 
 .large {
   flex-grow: 2;
@@ -135,4 +120,20 @@ h2 {
   justify-content: space-around;
   background-color: #940C00;
   font-size: 1.5em;
+}
+
+.develop-gallery {
+  display: flex;
+  justify-content: center;
+  a {
+    color: inherit;
+    font-size: 3em;
+    font-family: SignPainter-HouseScript;
+  }
+}
+
+.dev-item {
+  display: flex;
+  justify-content: center;
+  padding: 1em;
 }
