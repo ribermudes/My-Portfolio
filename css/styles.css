@@ -13,13 +13,18 @@ body {
   height: 80vh;
   position: relative; }
 
-.design {
+.section-title {
   background-color: black; }
-  .design h1 {
+  .section-title h1 {
     color: white;
     padding: 10px;
     font-family: SignPainter-HouseScript;
     font-size: 3em; }
+
+.skills {
+  height: 100px;
+  width: 100px;
+  padding: 1em; }
 
 .gallery {
   display: flex;
@@ -89,39 +94,6 @@ h2 {
   justify-content: space-around;
   background-color: #940C00;
   font-size: 1.5em; }
-
-.process {
-  display: flex;
-  justify-content: center; }
-
-.steps {
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  margin-top: 5em; }
-
-.icons {
-  height: 100px;
-  width: 100px;
-  transform: scale(1);
-  transition: transform .2s ease-in-out;
-  justify-content: center; }
-
-.icons:hover {
-  transform: scale(2); }
-
-.steps img {
-  display: flex;
-  justify-content: center; }
-
-.steps h2 {
-  padding-top: 2em;
-  text-align: center; }
-
-.steps p {
-  text-align: center; }
 
 html, body {
   padding: 0;
@@ -196,13 +168,18 @@ body {
   height: 80vh;
   position: relative; }
 
-.design {
+.section-title {
   background-color: black; }
-  .design h1 {
+  .section-title h1 {
     color: white;
     padding: 10px;
     font-family: SignPainter-HouseScript;
     font-size: 3em; }
+
+.skills {
+  height: 100px;
+  width: 100px;
+  padding: 1em; }
 
 .gallery {
   display: flex;
@@ -272,39 +249,6 @@ h2 {
   justify-content: space-around;
   background-color: #940C00;
   font-size: 1.5em; }
-
-.process {
-  display: flex;
-  justify-content: center; }
-
-.steps {
-  padding: 1em;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 300px;
-  margin-top: 5em; }
-
-.icons {
-  height: 100px;
-  width: 100px;
-  transform: scale(1);
-  transition: transform .2s ease-in-out;
-  justify-content: center; }
-
-.icons:hover {
-  transform: scale(2); }
-
-.steps img {
-  display: flex;
-  justify-content: center; }
-
-.steps h2 {
-  padding-top: 2em;
-  text-align: center; }
-
-.steps p {
-  text-align: center; }
 
 html, body {
   padding: 0;
