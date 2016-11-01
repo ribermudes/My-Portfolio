@@ -26,6 +26,11 @@ body {
   }
 }
 
+.skill-icons {
+  display: flex;
+  justify-content: center;
+}
+
 .skills {
   height: 100px;
   width: 100px;
@@ -127,13 +132,14 @@ h2 {
   justify-content: center;
   a {
     color: inherit;
-    font-size: 3em;
+    font-size: 2em;
     font-family: SignPainter-HouseScript;
   }
 }
 
 .dev-item {
   display: flex;
-  justify-content: center;
+  align-items: center;
   padding: 1em;
+  width: 400px;
 }
