@@ -99,20 +99,6 @@ h2 {
   background-color: #940C00;
   font-size: 1.5em; }
 
-.develop-gallery {
-  display: flex;
-  justify-content: center; }
-  .develop-gallery a {
-    color: inherit;
-    font-size: 2em;
-    font-family: SignPainter-HouseScript; }
-
-.dev-item {
-  display: flex;
-  align-items: center;
-  padding: 1em;
-  width: 400px; }
-
 html, body {
   padding: 0;
   margin: 0; }
@@ -153,19 +139,12 @@ html, body {
   transform: translateX(-50%);
   font-size: 2.5em; }
 
-.social-media img {
-  height: 50px;
-  width: 50px;
-  padding: 5px; }
-
-.contact {
+.develop {
   display: flex;
-  justify-content: center;
-  margin: 2em; }
-  .contact h2 {
-    font-size: 2.5em; }
-  .contact a {
-    color: inherit; }
+  justify-content: center; }
+  .develop img {
+    height: 150px;
+    width: 150px; }
 
 * {
   margin: 0;
@@ -268,20 +247,6 @@ h2 {
   background-color: #940C00;
   font-size: 1.5em; }
 
-.develop-gallery {
-  display: flex;
-  justify-content: center; }
-  .develop-gallery a {
-    color: inherit;
-    font-size: 2em;
-    font-family: SignPainter-HouseScript; }
-
-.dev-item {
-  display: flex;
-  align-items: center;
-  padding: 1em;
-  width: 400px; }
-
 html, body {
   padding: 0;
   margin: 0; }
@@ -322,19 +287,12 @@ html, body {
   transform: translateX(-50%);
   font-size: 2.5em; }
 
-.social-media img {
-  height: 50px;
-  width: 50px;
-  padding: 5px; }
-
-.contact {
+.develop {
   display: flex;
-  justify-content: center;
-  margin: 2em; }
-  .contact h2 {
-    font-size: 2.5em; }
-  .contact a {
-    color: inherit; }
+  justify-content: center; }
+  .develop img {
+    height: 150px;
+    width: 150px; }
 
 *,
 *::before,
