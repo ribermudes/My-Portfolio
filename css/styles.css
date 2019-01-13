@@ -2,142 +2,49 @@
   margin: 0;
   padding: 0; }
 
-body {
-  font-family: 'News Cycle', sans-serif; }
-
-.header {
-  background-image: url("../img/DWLWL9USBG.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  height: 80vh;
-  position: relative; }
-
-.section-title {
-  background-color: black; }
-  .section-title h1 {
-    color: white;
-    padding: 10px;
-    font-family: SignPainter-HouseScript;
-    font-size: 3em; }
-
-.skill-icons {
-  display: flex;
-  justify-content: center; }
-
-.skills {
-  height: 100px;
-  width: 100px;
-  padding: 1em; }
-
-.gallery {
-  display: flex;
-  flex-direction: column; }
-
-.gallery-top {
-  display: flex; }
-
-.gallery-image {
-  height: 300px;
-  background-size: cover; }
-
-.item1 {
-  background-image: url("../img/main-page.png");
-  position: relative; }
-
-.item2 {
-  background-image: url("../img/breakingbread.png");
-  position: relative; }
-
-.item3 {
-  background-image: url("../img/mentr.png");
-  position: relative; }
-
-.large {
-  flex-grow: 2; }
-
-.small {
-  flex-grow: 1; }
-
-.gallery p {
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 25%;
-  font-weight: bold;
-  color: white;
-  font-size: 2em;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  .gallery p a {
-    text-decoration: none;
-    color: inherit; }
-  .gallery p a:hover {
-    color: #940C00; }
-
-.info {
-  display: flex; }
-
-h2 {
-  margin: 1em;
-  font-family: SignPainter-HouseScript; }
-
-.profile {
+.biopic {
   height: 225px;
   width: 225px;
   border-radius: 50%;
   border: solid 1px black;
   margin: 3em; }
 
-.about p {
-  width: 800px;
-  margin: 2em;
-  padding-top: 3em; }
-
-.about {
-  display: flex;
-  justify-content: space-around;
-  background-color: #940C00;
-  font-size: 1.5em; }
-
 html, body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Ledger', serif; }
 
-.name {
-  display: flex;
-  justify-content: center;
-  font-family: SignPainter-HouseScript;
-  font-size: 5em;
-  color: white;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%); }
+.dev-me {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 80vh;
+  position: relative; }
 
-.lips {
+.navigation {
   display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
+  justify-content: space-between;
+  align-items: baseline;
   margin: 1em; }
 
-.logo {
-  width: 7em; }
+.nav-options a {
+  color: #940c00;
+  padding: 2em; }
 
-.title {
-  text-align: center;
-  color: white;
-  position: absolute;
-  top: 55%;
-  left: 48%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-  font-size: 2.5em; }
+.name {
+  font-family: 'Nixie One', cursive;
+  font-size: 25px;
+  color: #940c00; }
+
+.header {
+  display: flex;
+  margin: 1em;
+  padding: 1em; }
+
+.intro {
+  font-weight: bold;
+  padding: inherit;
+  text-align: center; }
 
 .develop {
   display: flex;
@@ -150,142 +57,49 @@ html, body {
   margin: 0;
   padding: 0; }
 
-body {
-  font-family: 'News Cycle', sans-serif; }
-
-.header {
-  background-image: url("../img/DWLWL9USBG.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  height: 80vh;
-  position: relative; }
-
-.section-title {
-  background-color: black; }
-  .section-title h1 {
-    color: white;
-    padding: 10px;
-    font-family: SignPainter-HouseScript;
-    font-size: 3em; }
-
-.skill-icons {
-  display: flex;
-  justify-content: center; }
-
-.skills {
-  height: 100px;
-  width: 100px;
-  padding: 1em; }
-
-.gallery {
-  display: flex;
-  flex-direction: column; }
-
-.gallery-top {
-  display: flex; }
-
-.gallery-image {
-  height: 300px;
-  background-size: cover; }
-
-.item1 {
-  background-image: url("../img/main-page.png");
-  position: relative; }
-
-.item2 {
-  background-image: url("../img/breakingbread.png");
-  position: relative; }
-
-.item3 {
-  background-image: url("../img/mentr.png");
-  position: relative; }
-
-.large {
-  flex-grow: 2; }
-
-.small {
-  flex-grow: 1; }
-
-.gallery p {
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 25%;
-  font-weight: bold;
-  color: white;
-  font-size: 2em;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
-  .gallery p a {
-    text-decoration: none;
-    color: inherit; }
-  .gallery p a:hover {
-    color: #940C00; }
-
-.info {
-  display: flex; }
-
-h2 {
-  margin: 1em;
-  font-family: SignPainter-HouseScript; }
-
-.profile {
+.biopic {
   height: 225px;
   width: 225px;
   border-radius: 50%;
   border: solid 1px black;
   margin: 3em; }
 
-.about p {
-  width: 800px;
-  margin: 2em;
-  padding-top: 3em; }
-
-.about {
-  display: flex;
-  justify-content: space-around;
-  background-color: #940C00;
-  font-size: 1.5em; }
-
 html, body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Ledger', serif; }
 
-.name {
-  display: flex;
-  justify-content: center;
-  font-family: SignPainter-HouseScript;
-  font-size: 5em;
-  color: white;
-  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%); }
+.dev-me {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  height: 80vh;
+  position: relative; }
 
-.lips {
+.navigation {
   display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
+  justify-content: space-between;
+  align-items: baseline;
   margin: 1em; }
 
-.logo {
-  width: 7em; }
+.nav-options a {
+  color: #940c00;
+  padding: 2em; }
 
-.title {
-  text-align: center;
-  color: white;
-  position: absolute;
-  top: 55%;
-  left: 48%;
-  transform: translateY(-50%);
-  transform: translateX(-50%);
-  font-size: 2.5em; }
+.name {
+  font-family: 'Nixie One', cursive;
+  font-size: 25px;
+  color: #940c00; }
+
+.header {
+  display: flex;
+  margin: 1em;
+  padding: 1em; }
+
+.intro {
+  font-weight: bold;
+  padding: inherit;
+  text-align: center; }
 
 .develop {
   display: flex;

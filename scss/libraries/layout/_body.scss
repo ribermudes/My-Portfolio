@@ -3,144 +3,99 @@ margin: 0;
 padding: 0;
 }
 
-body {
-  font-family: 'News Cycle', sans-serif;
-}
-
-.header {
-  background-image: url("../img/DWLWL9USBG.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-  height: 80vh;
-  position: relative;
-}
-
-.section-title {
-  background-color: black;
-  h1 {
-    color: white;
-    padding: 10px;
-    font-family: SignPainter-HouseScript;
-    font-size: 3em;
-  }
-}
-
-.skill-icons {
-  display: flex;
-  justify-content: center;
-}
-
-.skills {
-  height: 100px;
-  width: 100px;
-  padding: 1em;
-}
-
-.gallery {
-  display: flex;
-  flex-direction: column;
-}
-
-.gallery-top{
-  display: flex;
-}
-
-.gallery-image {
-  height: 300px;
-  background-size: cover;
-}
-
-.item1 {
-  background-image: url("../img/main-page.png");
-  position: relative;
-}
-
-.item2 {
-  background-image: url("../img/breakingbread.png");
-  position: relative;
-}
-
-.item3 {
-  background-image: url("../img/mentr.png");
-  position: relative;
-}
-
-.large {
-  flex-grow: 2;
-}
-
-.small {
-  flex-grow: 1
-}
-
-.gallery p {
-  color: white;
-  position: absolute;
-  top: 40%;
-  left: 25%;
-  font-weight: bold;
-  color: white;
-  font-size: 2em;
-  text-shadow:
-    // 3px 3px 0 #000,
-  -1px -1px 0 #000,
-   1px -1px 0 #000,
-   -1px 1px 0 #000,
-    1px 1px 0 #000;
-  a {
-    text-decoration: none;
-    color:inherit;
-  }
-  a:hover {
-    color:#940C00;
-  }
-}
-
-.info {
-  display: flex;
-}
-
-h2 {
-  margin: 1em;
-  font-family: SignPainter-HouseScript;
-}
-
-.profile {
+.biopic {
   height: 225px;
   width: 225px;
   border-radius: 50%;
   border: solid 1px black;
   margin: 3em;
 }
-
-.about p {
-  width: 800px;
-  margin: 2em;
-  padding-top: 3em;
-}
-
-.about {
-  display: flex;
-  justify-content: space-around;
-  background-color: #940C00;
-  font-size: 1.5em;
-}
-
-
-// .develop-gallery {
-//   display: flex;
-//   justify-content: center;
-//   a {
-//     color: inherit;
-//     font-size: 2em;
+// body {
+//   font-family: 'News Cycle', sans-serif;
+// }
+//
+// .section-title {
+//   background-color: black;
+//   h1 {
+//     color: white;
+//     padding: 10px;
 //     font-family: SignPainter-HouseScript;
+//     font-size: 3em;
 //   }
 // }
-
-// .dev-item {
+//
+// .skill-icons {
 //   display: flex;
-//   align-items: center;
-//   padding: 1em;
-//   width: 400px;
+//   justify-content: center;
 // }
+//
+// .skills {
+//   height: 100px;
+//   width: 100px;
+//   padding: 1em;
+// }
+//
+// .gallery {
+//   display: flex;
+//   flex-direction: column;
+// }
+//
+// .gallery-top{
+//   display: flex;
+// }
+//
+// .gallery-image {
+//   height: 300px;
+//   background-size: cover;
+// }
+//
+// .item1 {
+//   background-image: url("../img/main-page.png");
+//   position: relative;
+// }
+//
+// .item2 {
+//   background-image: url("../img/breakingbread.png");
+//   position: relative;
+// }
+//
+// .item3 {
+//   background-image: url("../img/mentr.png");
+//   position: relative;
+// }
+//
+// .large {
+//   flex-grow: 2;
+// }
+//
+// .small {
+//   flex-grow: 1
+// }
+//
+// .gallery p {
+//   color: white;
+//   position: absolute;
+//   top: 40%;
+//   left: 25%;
+//   font-weight: bold;
+//   color: white;
+//   font-size: 2em;
+//   text-shadow:
+//     // 3px 3px 0 #000,
+//   -1px -1px 0 #000,
+//    1px -1px 0 #000,
+//    -1px 1px 0 #000,
+//     1px 1px 0 #000;
+//   a {
+//     text-decoration: none;
+//     color:inherit;
+//   }
+//   a:hover {
+//     color:#940C00;
+//   }
+// }
+//
+// .info {
+//   display: flex;
+// }
+//
