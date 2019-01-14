@@ -9,6 +9,15 @@
   border: solid 1px black;
   margin: 3em; }
 
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh; }
+
+.about-me p {
+  text-align: center;
+  padding: 1em; }
+
 html, body {
   padding: 0;
   margin: 0;
@@ -63,6 +72,15 @@ html, body {
   border-radius: 50%;
   border: solid 1px black;
   margin: 3em; }
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh; }
+
+.about-me p {
+  text-align: center;
+  padding: 1em; }
 
 html, body {
   padding: 0;

@@ -10,6 +10,23 @@ padding: 0;
   border: solid 1px black;
   margin: 3em;
 }
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  height: 100vh;
+}
+
+.bio {
+  // background-color: #940c00;
+}
+
+.about-me p {
+  text-align: center;
+  padding: 1em;
+}
+
+
+
 // body {
 //   font-family: 'News Cycle', sans-serif;
 // }
