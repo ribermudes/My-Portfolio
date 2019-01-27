@@ -18,6 +18,14 @@
   text-align: center;
   padding: 1em; }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  main img {
+    display: block;
+    box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
+    width: 100%; }
+
 html, body {
   padding: 0;
   margin: 0;
@@ -81,6 +89,14 @@ html, body {
 .about-me p {
   text-align: center;
   padding: 1em; }
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
+  main img {
+    display: block;
+    box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
+    width: 100%; }
 
 html, body {
   padding: 0;

@@ -25,94 +25,13 @@ padding: 0;
   padding: 1em;
 }
 
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  img {
+    display: block;
+    box-shadow: -1px 0px 0px rgba(0,0,0,0.06);
+    width: 100%;
+  }
 
-
-// body {
-//   font-family: 'News Cycle', sans-serif;
-// }
-//
-// .section-title {
-//   background-color: black;
-//   h1 {
-//     color: white;
-//     padding: 10px;
-//     font-family: SignPainter-HouseScript;
-//     font-size: 3em;
-//   }
-// }
-//
-// .skill-icons {
-//   display: flex;
-//   justify-content: center;
-// }
-//
-// .skills {
-//   height: 100px;
-//   width: 100px;
-//   padding: 1em;
-// }
-//
-// .gallery {
-//   display: flex;
-//   flex-direction: column;
-// }
-//
-// .gallery-top{
-//   display: flex;
-// }
-//
-// .gallery-image {
-//   height: 300px;
-//   background-size: cover;
-// }
-//
-// .item1 {
-//   background-image: url("../img/main-page.png");
-//   position: relative;
-// }
-//
-// .item2 {
-//   background-image: url("../img/breakingbread.png");
-//   position: relative;
-// }
-//
-// .item3 {
-//   background-image: url("../img/mentr.png");
-//   position: relative;
-// }
-//
-// .large {
-//   flex-grow: 2;
-// }
-//
-// .small {
-//   flex-grow: 1
-// }
-//
-// .gallery p {
-//   color: white;
-//   position: absolute;
-//   top: 40%;
-//   left: 25%;
-//   font-weight: bold;
-//   color: white;
-//   font-size: 2em;
-//   text-shadow:
-//     // 3px 3px 0 #000,
-//   -1px -1px 0 #000,
-//    1px -1px 0 #000,
-//    -1px 1px 0 #000,
-//     1px 1px 0 #000;
-//   a {
-//     text-decoration: none;
-//     color:inherit;
-//   }
-//   a:hover {
-//     color:#940C00;
-//   }
-// }
-//
-// .info {
-//   display: flex;
-// }
-//
+}
