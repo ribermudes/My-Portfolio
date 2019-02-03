@@ -18,14 +18,12 @@
   text-align: center;
   padding: 1em; }
 
-main {
+.work-gallery {
   display: grid;
-  grid-gap: 1em;
-  padding: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
-  main img {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); }
+  .work-gallery img {
     display: block;
-    box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
+    height: 300px;
     width: 100%; }
 
 html, body {
@@ -64,13 +62,6 @@ html, body {
   font-weight: bold;
   padding: inherit;
   text-align: center; }
-
-.develop {
-  display: flex;
-  justify-content: center; }
-  .develop img {
-    height: 150px;
-    width: 150px; }
 
 * {
   margin: 0;
@@ -92,14 +83,12 @@ html, body {
   text-align: center;
   padding: 1em; }
 
-main {
+.work-gallery {
   display: grid;
-  grid-gap: 1em;
-  padding: 1em;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); }
-  main img {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 2fr)); }
+  .work-gallery img {
     display: block;
-    box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06);
+    height: 300px;
     width: 100%; }
 
 html, body {
@@ -138,13 +127,6 @@ html, body {
   font-weight: bold;
   padding: inherit;
   text-align: center; }
-
-.develop {
-  display: flex;
-  justify-content: center; }
-  .develop img {
-    height: 150px;
-    width: 150px; }
 
 *,
 *::before,
