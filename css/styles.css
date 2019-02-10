@@ -2,6 +2,10 @@
   margin: 0;
   padding: 0; }
 
+h2 {
+  font-family: 'Nixie One', cursive;
+  color: #940c00; }
+
 .biopic {
   height: 225px;
   width: 225px;
@@ -11,11 +15,10 @@
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  height: 100vh; }
+  grid-template-columns: 1fr 2fr; }
 
 .about-me p {
-  text-align: center;
+  align-items: center;
   padding: 1em; }
 
 .work-gallery {
@@ -25,6 +28,12 @@
     display: block;
     height: 300px;
     width: 100%; }
+
+.skills {
+  padding-top: 1em; }
+  .skills img {
+    height: 50px;
+    width: 50px; }
 
 html, body {
   padding: 0;
@@ -60,13 +69,17 @@ html, body {
 
 .intro {
   font-weight: bold;
-  padding: inherit;
+  padding: 1em;
   text-align: center; }
 
 * {
   margin: 0;
   padding: 0; }
 
+h2 {
+  font-family: 'Nixie One', cursive;
+  color: #940c00; }
+
 .biopic {
   height: 225px;
   width: 225px;
@@ -76,11 +89,10 @@ html, body {
 
 .wrapper {
   display: grid;
-  grid-template-columns: 1fr 2fr;
-  height: 100vh; }
+  grid-template-columns: 1fr 2fr; }
 
 .about-me p {
-  text-align: center;
+  align-items: center;
   padding: 1em; }
 
 .work-gallery {
@@ -90,6 +102,12 @@ html, body {
     display: block;
     height: 300px;
     width: 100%; }
+
+.skills {
+  padding-top: 1em; }
+  .skills img {
+    height: 50px;
+    width: 50px; }
 
 html, body {
   padding: 0;
@@ -125,7 +143,7 @@ html, body {
 
 .intro {
   font-weight: bold;
-  padding: inherit;
+  padding: 1em;
   text-align: center; }
 
 *,
