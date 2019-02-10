@@ -13,7 +13,7 @@ h2 {
   width: 225px;
   border-radius: 50%;
   border: solid 1px black;
-  margin: 3em;
+  margin-left: 2em;
 }
 .wrapper {
   display: grid;
@@ -41,7 +41,8 @@ h2 {
 }
 
 .skills {
-  padding-top: 1em;
+  text-align: center;
+  padding: 1em;
 img {
   height: 50px;
   width: 50px;
