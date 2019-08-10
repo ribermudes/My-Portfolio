@@ -76,7 +76,8 @@ html, body {
 .intro {
   font-weight: bold;
   padding: 1em;
-  text-align: center; }
+  text-align: center;
+  margin: 1em; }
 
 * {
   margin: 0;
@@ -156,7 +157,8 @@ html, body {
 .intro {
   font-weight: bold;
   padding: 1em;
-  text-align: center; }
+  text-align: center;
+  margin: 1em; }
 
 *,
 *::before,
